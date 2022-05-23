@@ -140,7 +140,10 @@ body {
 .auth-nav a:focus {
   color: var(--accent-color);
 }
-
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> section hero >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -148,7 +151,9 @@ body {
 .hero {
   background: var(--footer-hero-bg-color);
   text-align: center;
-  margin-bottom: 94px;
+  padding-bottom: 0;
+  padding-top: 204.5px;
+  padding-bottom: 195.5px;
 }
 
 .hero .title {
@@ -164,11 +169,7 @@ body {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> section  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-.section {
-  margin-bottom: 94px;
-}
-
-.section .title {
+.specifics .title {
   margin-top: 0;
 }
 
@@ -205,7 +206,7 @@ body {
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> section occupation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .occupation {
-  margin-bottom: 94px;
+  padding-top: 0;
 }
 
 .occupation .title {
